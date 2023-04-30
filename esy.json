@@ -1,0 +1,17 @@
+{
+    "name": "ocaml-jst",
+    "esy": {
+        "build": ["./configure", "make -f Makefile.jst compiler"],
+        "buildsInSource": true
+    },
+    "dependencies": {
+        "@opam/dune": "3.1.1",
+        "@opam/fmt": "0.9.0",
+        "ocaml": "4.14.0"
+    },
+    "devDependencies": {
+        "@opam/ocaml-lsp-server": "1.12.2",
+        "@opam/ocp-indent": "1.8.1",
+        "@opam/ocamlformat": "0.24.1"
+    }
+}
